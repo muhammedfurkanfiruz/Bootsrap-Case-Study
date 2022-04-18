@@ -1,0 +1,45 @@
+.nav-img{
+width: 40%;
+}
+.nav a {
+    color: gray;
+   
+}
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+.top-bar-left p {
+  
+}
+
+.top-bar-left{
+    border: 2px solid red;
+    color: gray;
+
+
+}
+.top-bar-right a{
+    color: gray;
+}
+
+.top-bar-right i{
+color: black;
+}
+
+.nav-bottom{
+ display: flex;
+ justify-content:;
+ text-align: center;
+ width: 80%;
+ align-items: center;
+
+
+}
+.nav-bottom img{
+    width: 20%;
+}
