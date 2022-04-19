@@ -3,6 +3,7 @@
 }
 .nav a {
   color: gray;
+  
 }
 
 .navbar {
@@ -36,6 +37,7 @@
   text-align: center;
   align-items: center;
   box-shadow: 1px 4px 5px darkgrey;
+ 
 }
 .nav-bottom img {
   width: 66px;
@@ -45,6 +47,7 @@
   width: unset;
   color: gray;
   margin-right: 25px;
+  text-decoration: none;
 }
 
 .discounted-products {
@@ -167,4 +170,66 @@
 }
 .cards-position{
     margin-top: -100px !important;
+}
+.page-img-three{
+    height: 350px;
+    background-image: url(img/back-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin-top: 25px;
+    box-shadow: 1px 4px 5px darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page-img-three h5 {
+    color: orange;
+    font-weight: bold;
+}
+
+.page-img-three p {
+    font-style: italic;
+}
+
+.vertical-line{
+ font-size: larger;
+ border: 1px solid orange;
+ width: 2px;
+ height: 90px;
+ z-index: 1;
+}
+.useful-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info-card a{
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: #4c4e52;
+
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+.footer-top-bar{
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    background-image: url(/img/portakal-hasat.jpg);
+    border-radius: 5px;
+
 }
