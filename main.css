@@ -136,3 +136,31 @@
     margin-top: 20px;
    
 }
+.page-img-two{
+    margin-top: 20px;
+    /* height: 350px; */
+    width: 100%;
+    background-image: url(img/welcome-denver-downs-farm.png);
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  
+}
+.week{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.week h3{
+    color: orange;
+}
+.week p {
+    color: black;
+    font-style: italic;
+
+}
