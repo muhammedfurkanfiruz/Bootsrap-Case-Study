@@ -1,14 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Hello, world!</title>
   </head>
   <body>
@@ -19,75 +27,442 @@
     -->
 
     <div class="top-bar">
-
-        <div class="top-bar-left d-flex justify-content-around">
-            <p>100₺ ve üzeri <span style="color: orange;">ücretsiz kargo</span> </p>
-
-        </div>
-        <div class="top-bar-right">
-            <a href=""><i class="fa-solid fa-flag-usa m-1"></i>EN<i class="fa-solid fa-chevron-down m-1"></i></a>
-            <i class="fa-solid fa-apple-whole"></i> 
-            <a href=""><i class="fa-solid fa-circle-ampersand m-1"></i>USD<i class="fa-solid fa-chevron-down m-1"></i></a>
-        </div>
-
+      <div class="top-bar-left d-flex justify-content-around">
+        <p>100₺ ve üzeri <span style="color: orange">ücretsiz kargo</span></p>
+      </div>
+      <div class="top-bar-right">
+        <a href=""
+          ><i class="fa-solid fa-flag-usa m-1"></i>EN<i
+            class="fa-solid fa-chevron-down m-1"
+          ></i
+        ></a>
+        <i class="fa-solid fa-apple-whole"></i>
+        <a href=""
+          ><i class="fa-solid fa-circle-ampersand m-1"></i>USD<i
+            class="fa-solid fa-chevron-down m-1"
+          ></i
+        ></a>
+      </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid d-flex justify-content-around ">
-            <div class="nav-img">
-                <a class="navbar-brand">  <img src="img/agrohil.png" class="nav-img"> </a>
+      <div class="container-fluid d-flex justify-content-around">
+        <div class="nav-img">
+          <a class="navbar-brand">
+            <img src="img/agrohil.png" class="nav-img" />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="navbar-brand">
+                <i class="fa-solid fa-heart-circle-check m-1"></i>favoriler</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand"
+                ><i class="fa-solid fa-user m-1"></i>Hesap</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand"
+                ><i class="fa-solid fa-cart-plus m-1"></i>Sepet</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-bottom row">
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Meyve</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Sebze</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Kahvaltılık</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Kuru Meyve</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Baharat</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Turşu</p>
+      </a>
+      <a href="#">
+        <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img" />
+        <p>Hediyelik</p>
+      </a>
+    </div>
+    <div class="discounted-products ">
+      <h4>İndirimli Ürünler</h4>
+      <div class="see-all">
+        <p>
+          Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit.
+        </p>
+        <p class="see-all-context">Tümünü gör</p>
+      </div>
+    </div>
+
+    <!--PRODUCTS part-->
+    <div class="four-cards-part">
+      <div class="container card-component row">
+        <div class="card col-4" style="width: 18rem">
+          <div class="card-header card-background">
+            <div class="favori">
+              <i class="fa-regular fa-heart" style="color: orange"></i>
             </div>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="navbar-brand"> <i class="fa-solid fa-heart-circle-check m-1"></i>favoriler</a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand"><i class="fa-solid fa-user m-1"></i>Hesap</a>
-              </li>
-              <li class="nav-item">
-                <a class="navbar-brand"><i class="fa-solid fa-cart-plus m-1"></i>Sepet</a>
-              </li>
-             
-            </ul>
-       
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>(1368)</p>
+          </div>
+
+          <img
+            src="./img/Peach-Free-PNG-Image.png"
+            class="card-img-top"
+            alt="seftali"
+          />
+
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Şeftali Glohaven</h5>
+            </div>
+
+            <div class="price-history">
+              <span class="old-price m-1"><s> 18.50&#8378; </s></span>
+              <span class="old-price m-1"> <b>15.00&#8378; </b></span>
+            </div>
+
+            <div class="discount">
+              <span class="discount-text">Sepette 10% indirim</span>
+              <span class="current-price discount-text">13.50&#8378;</span>
+            </div>
+
+            <div class="buttons">
+              <div class="counter d-flex plus-minus">
+                <button class="btn btn-warning">-</button>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  style="width: 50px"
+                  placeholder="1"
+                />
+                <button class="btn btn-warning">+</button>
+              </div>
+              <a href="#" class="btn btn-warning">Sepete ekle</a>
+            </div>
           </div>
         </div>
-      </nav>
-      <div class="nav-bottom">
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
-            <a href=""> <img src="img/7fccd4143a51812cfbcff26451e2a113.png" alt="img">
-                <p>meyveler</p>
-            </a>
 
-            
+        <!--card 2-->
 
+        <div class="card col-4" style="width: 18rem">
+          <div class="card-header card-background">
+            <div class="favori">
+              <i class="fa-regular fa-heart" style="color: orange"></i>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>(1368)</p>
+          </div>
+
+          <img
+            src="./img/Pineapple-1024x1024.png"
+            class="card-img-top"
+            alt="seftali"
+          />
+
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Şeftali Glohaven</h5>
+            </div>
+
+            <div class="price-history">
+              <span class="old-price m-1"><s> 18.50&#8378; </s></span>
+              <span class="old-price m-1"> <b>15.00&#8378; </b></span>
+            </div>
+
+            <div class="discount">
+              <span class="discount-text">Sepette 10% indirim</span>
+              <span class="current-price discount-text">13.50&#8378;</span>
+            </div>
+
+            <div class="buttons">
+              <div class="counter d-flex plus-minus">
+                <button class="btn btn-warning">-</button>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  style="width: 50px"
+                  placeholder="1"
+                />
+                <button class="btn btn-warning">+</button>
+              </div>
+              <a href="#" class="btn btn-warning">Sepete ekle</a>
+            </div>
+          </div>
+        </div>
+
+        <!--card 2 end-->
+
+        <!--card 3-->
+
+        <div class="card col-4" style="width: 18rem">
+          <div class="card-header card-background">
+            <div class="favori">
+              <i class="fa-regular fa-heart" style="color: orange"></i>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>(1368)</p>
+          </div>
+
+          <img
+            src="./img/900-9004310_grape-grapes-png.png"
+            class="card-img-top"
+            alt="seftali"
+          />
+
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Şeftali Glohaven</h5>
+            </div>
+
+            <div class="price-history">
+              <span class="old-price m-1"><s> 18.50&#8378; </s></span>
+              <span class="old-price m-1"> <b>15.00&#8378; </b></span>
+            </div>
+
+            <div class="discount">
+              <span class="discount-text">Sepette 10% indirim</span>
+              <span class="current-price discount-text">13.50&#8378;</span>
+            </div>
+
+            <div class="buttons">
+              <div class="counter d-flex plus-minus">
+                <button class="btn btn-warning">-</button>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  style="width: 50px"
+                  placeholder="1"
+                />
+                <button class="btn btn-warning">+</button>
+              </div>
+              <a href="#" class="btn btn-warning">Sepete ekle</a>
+            </div>
+          </div>
+        </div>
+
+        <!--card 3 end-->
+
+        <!--card 4-->
+        <div class="card col-4" style="width: 18rem">
+          <div class="card-header card-background">
+            <div class="favori">
+              <i class="fa-regular fa-heart" style="color: orange"></i>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>(1368)</p>
+          </div>
+
+          <img
+            src="./img/79141-vegetable-seed-watermelon-fruit-png-free-photo.png.crdownload"
+            class="card-img-top"
+            alt="seftali"
+          />
+
+          <div class="card-body">
+            <div class="card-title">
+              <h5>Şeftali Glohaven</h5>
+            </div>
+
+            <div class="price-history">
+              <span class="old-price m-1"><s> 18.50&#8378; </s></span>
+              <span class="old-price m-1"> <b>15.00&#8378; </b></span>
+            </div>
+
+            <div class="discount">
+              <span class="discount-text">Sepette 10% indirim</span>
+              <span class="current-price discount-text">13.50&#8378;</span>
+            </div>
+
+            <div class="buttons">
+              <div class="counter d-flex plus-minus">
+                <button class="btn btn-warning">-</button>
+                <input
+                  type="number"
+                  name=""
+                  id=""
+                  style="width: 50px"
+                  placeholder="1"
+                />
+                <button class="btn btn-warning">+</button>
+              </div>
+              <a href="#" class="btn btn-warning">Sepete ekle</a>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!--card 4 end-->
+    </div>
+
+    <!--PRODUCTS part end-->
+    <!--img part-->
+    <div class="page-img-one">
+    <img src="/img/Fresh-Fruits-And-Vegetables-PNG-Photos.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <!--img part-->
+    <div class="discounted-products ">
+        <h4>Çok Satanlar</h4>
+        <div class="see-all">
+          <p>
+            Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit.
+          </p>
+          <p class="see-all-context">Tümünü gör</p>
+        </div>
+      </div>
+    <!--Footer part-->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      ></section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">Hakkımızda</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem doloribus vero pariatur incidunt architecto
+                ratione! Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Hızlı Bağlantılar</h6>
+              <p>
+                <a href="#!" class="text-reset">Anasayfa</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Ürünler</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Kampanyalar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">başlık</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">başlık</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">İletişim</h6>
+              <p><i class="fas fa-home me-3"></i> Çankaya / Ankara / TÜRKİYE</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@alanadi.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 90 312 000000</p>
+              <p><i class="fas fa-print me-3"></i> + 90 312 000001</p>
+              <button type="button" class="btn btn-warning">
+                İletişim Formu
+              </button>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

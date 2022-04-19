@@ -1,45 +1,138 @@
-.nav-img{
-width: 40%;
+.nav-img {
+  width: 40%;
 }
 .nav a {
-    color: gray;
-   
+  color: gray;
 }
-.top-bar{
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    align-items: center;
-    
+
+.navbar {
+  box-shadow: 1px 3px 5px lightgrey;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 11%;
+  padding: 5px;
+  align-items: center;
 }
 
 .top-bar-left p {
+}
+
+.top-bar-left {
+  color: gray;
+}
+.top-bar-right a {
+  color: gray;
+}
+
+.top-bar-right i {
+  color: black;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  box-shadow: 1px 4px 5px darkgrey;
+}
+.nav-bottom img {
+  width: 66px;
+}
+
+.nav-bottom a {
+  width: unset;
+  color: gray;
+  margin-right: 25px;
+}
+
+.discounted-products {
+  margin: 0 16%;
+  margin-top: 20px;
+  align-items: center;
+}
+.discounted-products h4 {
+  color: #4c4e52;
+}
+.see-all {
+  display: flex;
+  justify-content: space-between;
+}
+.see-all-context {
+  font-weight: bold;
+  color: rgb(85, 83, 83);
+  margin-right: 7%;
+}
+/*Card Components  */
+.card-component  {
+  margin-top: 20px;
+  justify-content: space-evenly ;
+  margin: 0 13% !important;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  
   
 }
-
-.top-bar-left{
-    border: 2px solid red;
-    color: gray;
-
-
-}
-.top-bar-right a{
-    color: gray;
+.card-background{
+    background: none!important
 }
 
-.top-bar-right i{
-color: black;
+.card img {
+  width: auto;
+  height: 150px;
+  object-fit: contain;
 }
 
-.nav-bottom{
- display: flex;
- justify-content:;
- text-align: center;
- width: 80%;
- align-items: center;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.plus-minus {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+}
 
+.plus-minus button {
+    width: 25px;
+    height: 28px;
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 16px;
+    
+}
+
+.buttons input {
+  margin: 4px;
+  width: 30px !important;
+}
+
+.fa-star.checked {
+  color: orange;
+}
+.discount-text {
+  color: orange;
+}
+.four-cards-part{
+    display: flex;
 
 }
-.nav-bottom img{
-    width: 20%;
+
+.page-img-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
 }
